@@ -13,7 +13,8 @@
 ### Multiple pointers:
 * Arrays, Lists and Strings [force us at times to use more than 1 pointer]
     * Pointers vary in speed or a different startIndex; when we have to swap
-Example : Sort a Bit Array
+
+#### Example : Sort a Bit Array
 
 
 
