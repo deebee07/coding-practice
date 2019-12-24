@@ -43,4 +43,52 @@ public class SortBitArray{
 }
 ```
 
+#### Example : Sorted Two Sum
+
+```
+import java.util.*;
+
+/* Given a sorted array of integers and a target value, determine if there exists two integers in the array that sum up to the target value.
+
+Approach 1: Brute Force
+The brute force approach would be, to try out every single possible pair combination and see if the sum matches the target. This would lead to a O(N^2) time complexity because the number of pairs is proportional to N^2.
+
+Approach 2: Frequency Hash
+We could also try to create a hashmap for lookup time to find a match. But this would lead to a 
+O(N) amount of auxiliary space.
+
+Approach 3: 
+left and right pointers we can find the sum
+O(N) time and O(1) auxiliary space.
+*/
+
+public class SortedTwoSum {
+
+     public static void main(String []args){
+        int[] sortedArray = new int[] {45,56,67,90,100,123,345,567,890,999,1011,1502,1809};
+        int target = 90;
+        System.out.println(sortedTwoSum(sortedArray, target));
+        target = 912; //sumOf index: [6,7]
+        System.out.println(sortedTwoSum(sortedArray, target));
+     }
+     
+     
+     public static boolean sortedTwoSum(int[] sortedArray, int target) {
+        int left = 0;
+        int right = sortedArray.length - 1;
+         
+        while (left < right) {
+            if ((sortedArray[left] + sortedArray[right]) == target) {
+                return true;
+            } else if ((sortedArray[left] + sortedArray[right]) > target) { 
+                right --;
+            } else if ((sortedArray[left]+sortedArray[right])<target) {
+                left++;
+            }
+        }
+        return false;
+     }
+}
+```
+
 
