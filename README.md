@@ -15,6 +15,8 @@
     * Pointers vary in speed or a different startIndex; when we have to swap
 
 #### Example : Sort a Bit Array
+
+#####  Time: O(N) Space: O(1)
 ```
 import java.util.*;
 
@@ -44,6 +46,8 @@ public class SortBitArray{
 ```
 
 #### Example : Sorted Two Sum
+
+#####  Time: O(N) Space: O(1)
 
 ```
 import java.util.*;
