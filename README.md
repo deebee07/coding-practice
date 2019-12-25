@@ -94,5 +94,86 @@ public class SortedTwoSum {
      }
 }
 ```
+#### Example : Merge Two Sorted Arrays
 
+#####  Time:O(N+M) Space: O(N+M)
+```
+import java.util.*;
 
+/*
+Merge Two Sorted Arrays
+Given two sorted arrays of integers, combine the values into one sorted array
+
+Input: [1,3,5], [2,4,6,8,10]
+
+Output: [1,2,3,4,5,6,8,10]
+
+See if you can solve this in O(N+M) time and O(N+M) auxiliary space.
+*/
+
+public class MergeTwoSortedArray {
+
+     public static void main(String []args){
+        int[] sortedArray_1 = new int[] {45,56,67,90,100,123,345,567,890,999,1011,1502,1809};
+        int[] sortedArray_2 = new int[] {1,2,3,4,5,6,7,8,9,1000,20000,300000};
+        System.out.println(Arrays.toString(mergeTwoSortedArray(sortedArray_1, sortedArray_2)));
+
+     }
+     
+     
+     public static int[] mergeTwoSortedArray(int[] sortedArray_1, int[] sortedArray_2) {
+        
+        int index_1 = 0, index_2 = 0, index = 0;
+        int finalArrayLength = sortedArray_1.length + sortedArray_2.length;
+        int resultArray[] = new int[finalArrayLength];
+        
+        // Run Loop untill all indexes of resultArray && we havent traversed through Array_1 or Array_2
+        while (index<finalArrayLength && index_1<sortedArray_1.length && index_2<sortedArray_2.length) {
+            
+            // If Arr_1 has smaller number put it in resultArray
+            // increment index of resultArray and that of Array_1
+            if (sortedArray_1[index_1] < sortedArray_2[index_2]) {
+                resultArray[index] = sortedArray_1[index_1];
+                index_1++;
+                index++;
+                            
+            // If Arr_2 has smaller number put it in resultArray
+            // increment index of resultArray and that of Array_2
+            } else if (sortedArray_2[index_2] < sortedArray_1[index_1]) {
+                resultArray[index] = sortedArray_2[index_2];
+                index_2++;
+                index++;
+            } else { 
+
+            // If Arr_1 has same element in Arr_2 number put it in resultArray TWICE
+            // increment index of resultArray and that of Array_1 and Array_2
+                resultArray[index] = sortedArray_2[index_2];
+                index++;
+                resultArray[index] = sortedArray_1[index_1];
+                index_1++;
+                index_2++;
+            }
+        }
+        
+        
+        // Put rest in resultArray; if we still have elements left in Arr1
+        if (index_1<sortedArray_1.length) {
+            while (index<finalArrayLength) {
+                resultArray[index] = sortedArray_1[index_1];
+                index_1++;
+                index++;
+            }
+        }
+        // Put rest in resultArray; if we still have elements left in Arr2
+        if (index_2<sortedArray_2.length) {
+            while (index<finalArrayLength) {
+                resultArray[index] = sortedArray_2[index_2];
+                index_2++;
+                index++;
+            }
+        }
+        
+        return resultArray;
+     }
+}
+```
