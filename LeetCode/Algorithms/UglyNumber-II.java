@@ -1,4 +1,5 @@
 /* 
+TECHNIQUE: Looping w/ Multiple Pointers i2, i3, i5
 https://leetcode.com/problems/ugly-number-ii/
 Input: n = 10
 Output: 12
