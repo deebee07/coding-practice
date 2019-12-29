@@ -38,7 +38,7 @@ class Solution {
             
             if (i == j) {
                 output.add(i - anchor + 1);
-                System.out.println(S.substring(anchor, j));
+                System.out.println(S.substring(anchor, j)); // These are the strings that give out partition labels
                 anchor = i+1; // This is the index of nextPartition head as from anchor to current j
             }
         }
