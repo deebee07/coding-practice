@@ -1,4 +1,5 @@
-# **Patterns** for a Coding Interview Question (Generic patterns)
+# Generic patterns to Coding Questions
+# Interview Help
 * Serve as a template to solve various types of problems with slight variations
 
 [Course 1 with Patterns](https://www.educative.io/courses/grokking-the-coding-interview?source=post_page---------------------------)
