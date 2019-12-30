@@ -276,13 +276,7 @@ public class SortBitArray {
 
 ```
 
-### Divide and Conquer:
-* divides a problem into two or more subproblems.
-* subproblems are solved independently.
-* results are **combined back together** via **MULTIPLE** recursion or a **stack** and **while** loop.
-  * Quicksort
-  * Mergesort
-  * Strassen matrix multiplication
+
 
 ### Decrease and Conquer:
 * reduces a problem into a single smaller subproblem..
@@ -290,8 +284,30 @@ public class SortBitArray {
 * implemented with a **while** loop or **SINGLE** recursion.
   * Binary Search
   * Quickselect
-  * Russian Peasant Multiplication 
+  * Russian Peasant Multiplication
+**Note:** Decrease and conquer includes reduction by a constant value (subtract by a value), however we will focus on reduction by a factor (division by a factor).
+#### Example : Binary Search
+#####  Time: O(logN) Space: O(1)
+```
 
-#### 
+```
 
-##### 
+#### Example : Greatest Common Divisor (GCD)
+#####  Time: O(logN) Space: O(1)
+```
+
+```
+#### Example : Number of Ones in a Sorted Bit Array
+#####  Time: O(logN) Space: O(1)
+```
+
+```
+
+
+### Divide and Conquer:
+* divides a problem into two or more subproblems.
+* subproblems are solved independently.
+* results are **combined back together** via **MULTIPLE** recursion or a **stack** and **while** loop.
+  * Quicksort
+  * Mergesort
+  * Strassen matrix multiplication
