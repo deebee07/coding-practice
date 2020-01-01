@@ -1,16 +1,16 @@
 
-**QUESTIONS are AROUND**
-    1. **FINDING/CALCULATE SOMETHING** among all the **contiguous** subarrays/sublists of a **given size**.
+**IDENTIFY WHEN:** <br/>
+**FINDING/CALCULATE SOMETHING** among all the **contiguous** subarrays/sublists of a **given size**.
 
 #### Example : Given an array, find the average of all contiguous subarrays of size ‘K’ in it.
-Input: Arr=[1, 3, 2, 6, -1, 4, 1, 8, 2], K=5
-Output: [2.2, 2.8, 2.4, 3.6, 2.8]
+Input: Arr=[1, 3, 2, 6, -1, 4, 1, 8, 2], K=5<br/>
+Output: [2.2, 2.8, 2.4, 3.6, 2.8]<br/>
 
-Explanation:
-(1+3+2+6−1)/5=>2.2 index 0-4
-(3+2+6−1+4)/5=>2.8 index 1-4
-(2+6−1+4+1)/5=>2.4 index 2-6
-...
+Explanation:<br/>
+(1+3+2+6−1)/5=>2.2 index 0-4<br/>
+(3+2+6−1+4)/5=>2.8 index 1-4<br/>
+(2+6−1+4+1)/5=>2.4 index 2-6<br/>
+...<br/>
 #####  Solution 1: Brute-Force
 #####  Time: O(N*K)  ‘N’ is the number of elements in the input array; ‘K’ elements
 ```
@@ -37,9 +37,9 @@ public class AverageKSizeSubContArray{
 }
 ```
 
-Inefficiency: For any two consecutive subarrays of size ‘5’, overlapping part will be evaluated twice.
+**Inefficiency**: For any two consecutive subarrays of size ‘5’, overlapping part will be evaluated twice.
 
-Note: SubArray index 0-4 and index 1-4 share 4 elements.
+**Note**: SubArray index 0-4 and index 1-4 share 4 elements.
 ![Window of 4 shared elements](sliding-window.png)
 
 #####  Solution 2: Sliding-Window
