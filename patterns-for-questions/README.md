@@ -9,7 +9,7 @@
 ## **Sliding Window**
 
 ## **14 Generic Patterns**:
-  1. Sliding Window
+  1. [Sliding Window](patterns-for-questions/Sliding_Window/README.md)
   2. Two Pointers or Iterators
   3. Fast and Slow pointers
   4. Merge Intervals
