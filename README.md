@@ -15,3 +15,19 @@
 
 ## Patterns
 * [Patterns for Coding Questions](patterns-for-questions/README.md)
+
+
+## ASCII Character
+a-97
+z-122
+**a-z (97-122)**
+
+A-65
+Z-90
+**A-Z (65-90)**
+
+32 [space]
+
+* MAKE SURE ASCII VALUE IS IN RANGE FOR UPPER(65-90)/FOR LOWER(97-122)
+* To CONVERT FROM UPPERCASE TO LOWERCASE: ALWAYS ADD 32 to ASCII Value
+* To CONVERT FROM LOWERCASE to UPPERCASE: ALWAYS SUBTRACT 32 to ASCII Value
