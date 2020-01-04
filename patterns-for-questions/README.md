@@ -12,7 +12,7 @@
   1. [Sliding Window](patterns-for-questions/Sliding_Window/README.md)
   2. Two Pointers or Iterators
   3. Fast and Slow pointers
-  4. Merge Intervals
+  4. [Merge Intervals](patterns-for-questions/Merge_Intervals/README.md)
   5. Cyclic Sort
   6. In-place reversal of linked list
   7. Tree BFS (Breadth First Search)

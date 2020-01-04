@@ -12,7 +12,12 @@ Explanation: Subarray with maximum sum is [3, 4].
 */
 
 public class MaxSumSubArrayOfSizeK {
-    /* if not positive Integers set maxSum = Integer.MIN_VALUE
+    /*
+    Brute Force would be O(N*K)
+    Sliding Window (Current Solution)
+    Time Complexity: O(N)
+    Space Complexity: O(1)
+    if not positive Integers set maxSum = Integer.MIN_VALUE
        if only positive Integers set maxSum = 0
 
        initialize windowSum as 0, windowStart as 0 maxSum as 0
