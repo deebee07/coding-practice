@@ -11,8 +11,6 @@
 * [System Design Interview](https://www.educative.io/courses/grokking-the-system-design-interview)
 * [OO Design Interview](https://www.educative.io/courses/grokking-the-object-oriented-design-interview)
 
-## **Sliding Window**
-
 ## **14 Generic Patterns**:
   1. [Sliding Window](Sliding_Window/README.md)
   2. Two Pointers or Iterators
