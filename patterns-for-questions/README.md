@@ -9,14 +9,14 @@
 ## **Sliding Window**
 
 ## **14 Generic Patterns**:
-  1. [Sliding Window](patterns-for-questions/Sliding_Window/README.md)
+  1. [Sliding Window](Sliding_Window/README.md)
   2. Two Pointers or Iterators
   3. Fast and Slow pointers
-  4. [Merge Intervals](patterns-for-questions/Merge_Intervals/README.md)
+  4. [Merge Intervals](Merge_Intervals/README.md)
   5. Cyclic Sort
   6. In-place reversal of linked list
-  7. Tree BFS (Breadth First Search)
-  8. Tree DFS (Depth First Search)
+  7. [Tree BFS (Breadth First Search)](Tree_Breadth_First_Search/README.md)
+  8. [Tree DFS (Depth First Search)](Tree_Depth_First_Search/README.md)
   9. Two heaps
   10. Subsets
   11. Modified binary search
