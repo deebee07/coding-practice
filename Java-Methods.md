@@ -1,0 +1,67 @@
+## Useful Methods in Java to solver Programming questions
+
+1.
+```
+/*
+    * Method is used to add the element ‘element’ to this collection.
+    * @param element Object to be added.
+    * @return boolean value depicting the successfulness of the operation
+*/
+Collection.add(E element)
+```
+2.
+Basic heap operations: (MaxHeap here)
+```
+// Creating empty priority queue (maxHeap)
+PriorityQueue<Integer> pQueue =  new PriorityQueue<Integer>(Collections.reverseOrder()); 
+pQueue.add(10); 
+pQueue.add(30); 
+pQueue.add(20); 
+pQueue.add(400);
+pQueue.peek(); //Head value; the most priority element HERE IT WILL BE 400
+
+// Printing all elements 
+Iterator itr = pQueue.iterator();
+while (itr.hasNext())
+    System.out.println(itr.next()); // 400 30, 20, 10
+
+pQueue.poll(); //Removing the top priority element // Remove 400
+
+pQueue.remove(30); // Removing 30 using remove() 
+
+boolean b = pQueue.contains(20); // Check if an element is present using contains()
+
+Object[] arr = pQueue.toArray();  // Convert to Array
+  
+```
+
+3. ```offer()``` vs ```add()```
+```
+Queue.add
+
+Inserts the specified element into this queue if it is possible to do so immediately without violating capacity restrictions, returning true upon success
+
+Queue.offer
+
+Inserts the specified element into this queue if it is possible to do so immediately without violating capacity restrictions. When using a capacity-restricted queue, this method is generally preferable to add(E), which can fail to insert an element only by throwing an exception...
+```
+
+```
+```
+
+```
+```
+
+```
+```
+
+```
+```
+
+```
+```
+
+Reference help:
+
+https://www.geeksforgeeks.org/arraylist-in-java/
+

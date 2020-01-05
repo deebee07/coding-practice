@@ -16,7 +16,6 @@
 ## Patterns
 * [Patterns for Coding Questions](patterns-for-questions/README.md)
 
-
 ## ASCII Character
 a-97
 z-122

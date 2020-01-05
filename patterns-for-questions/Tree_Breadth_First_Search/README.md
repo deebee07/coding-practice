@@ -1,4 +1,4 @@
-##Breadth First Search (BFS)
+## Breadth First Search (BFS)
 
 * Technique to **traverse a tree**.
     * Traversal of a tree in a **level-by-level order**.
