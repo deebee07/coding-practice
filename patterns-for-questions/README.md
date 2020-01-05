@@ -2,18 +2,14 @@
 # Interview Help
 * Serve as a template to solve various types of problems with slight variations
 
-[Data Structures](https://www.educative.io/m/data-structures?source=post_page---------------------------)
-
-[Coding Questions Patterns](https://www.educative.io/courses/grokking-the-coding-interview?source=post_page---------------------------)
-
-[Dynamic Programming Patterns](https://www.educative.io/courses/grokking-dynamic-programming-patterns-for-coding-interviews)
-
-
-Design related courses:
-
-[System Design Interview](https://www.educative.io/courses/grokking-the-system-design-interview)
-
-[OO Design Interview](https://www.educative.io/courses/grokking-the-object-oriented-design-interview)
+## Courses
+#### Coding courses:
+* [Data Structures](https://www.educative.io/m/data-structures?source=post_page---------------------------)
+* [Coding Questions Patterns](https://www.educative.io/courses/grokking-the-coding-interview?source=post_page---------------------------)
+* [Dynamic Programming Patterns](https://www.educative.io/courses/grokking-dynamic-programming-patterns-for-coding-interviews)
+#### Design related courses:
+* [System Design Interview](https://www.educative.io/courses/grokking-the-system-design-interview)
+* [OO Design Interview](https://www.educative.io/courses/grokking-the-object-oriented-design-interview)
 
 ## **Sliding Window**
 
