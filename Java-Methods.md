@@ -45,6 +45,20 @@ Queue.offer
 
 Inserts the specified element into this queue if it is possible to do so immediately without violating capacity restrictions. When using a capacity-restricted queue, this method is generally preferable to add(E), which can fail to insert an element only by throwing an exception...
 ```
+4. 
+```
+java.util.LinkedList.offer(E e) method adds the specified element as the tail (last element) of this list.
+
+java.util.LinkedList.poll() method retrieves and removes the head (first element) of this list.
+
+java.util.ArrayList.add(int index, E elemen) method inserts the specified element E at the specified position in this list.It shifts the element currently at that position (if any) and any subsequent elements to the right.
+```
+
+5.
+```
+peek() method retrieves, but does not remove, the head of this queue, or returns null if this queue is empty.
+poll() method retrieves and removes the head of this queue, or returns null if this queue is empty.
+```
 
 ```
 ```
@@ -55,13 +69,8 @@ Inserts the specified element into this queue if it is possible to do so immedia
 ```
 ```
 
-```
-```
-
-```
-```
-
-Reference help:
+**Reference help:** 
+https://www.tutorialspoint.com/java/util/arraylist_add_index.htm
 
 https://www.geeksforgeeks.org/arraylist-in-java/
 
