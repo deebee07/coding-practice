@@ -60,7 +60,9 @@ peek() method retrieves, but does not remove, the head of this queue, or returns
 poll() method retrieves and removes the head of this queue, or returns null if this queue is empty.
 ```
 
+6.
 ```
+Collections.swap(List, index1, index2)
 ```
 
 ```
