@@ -11,6 +11,7 @@ import java.util.*;
 
 public class ShuffleArray {
 // Fisher Yates Shuffle O(N)
+// FISHER YATES ALGORITHM
  public static void randomize(int[] arrayToRandom, int n) {
      Random r = new Random();
      for (int i=n-1; i>0; i--) {
