@@ -1,8 +1,7 @@
 /* 
     https://leetcode.com/problems/partition-labels/
-    
-    A string S of lowercase letters is given. We want to partition this string into as many parts as       possible so that each letter appears in at most one part, and return a list of integers                 representing the size of these parts.
-    
+    This is similar to Jump Game problem
+    A string S of lowercase letters is given. We want to partition this string into as many parts as possible so that each letter appears in at most one part, and return a list of integers representing the size of these parts.
     
     Input: S = "ababcbacadefegdehijhklij"
     Output: [9,7,8]
