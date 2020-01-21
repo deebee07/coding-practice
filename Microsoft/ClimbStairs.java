@@ -17,7 +17,7 @@ class Solution {
             return 1;
         }
         
-        return helper(i+1, n)+helper(i+2, n);
+        return helper(i+1, n) + helper(i+2, n);
     }
 }
 
