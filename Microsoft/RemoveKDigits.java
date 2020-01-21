@@ -1,5 +1,12 @@
 /*
 https://leetcode.com/problems/remove-k-digits/
+Out of the above main loop, we need to handle some corner cases to make the solution more complete.
+
+case 1). when we get out of the main loop, we removed m digits, which is less than asked, i.e.(m < k). In the extreme case, we would not remove any digit for the monotonic increasing sequence in the loop, i.e. m==0. In this case, we just need to remove the additional k-m digits from the tail of the sequence.
+
+case 2). once we remove all the k digits from the sequence, there could be some leading zeros left. To format the final number, we need to strip off those leading zeros.
+
+case 3). we might end up removing all numbers from the sequence. In this case, we should return zero, instead of empty string.
 */
 
 public class Solution {
