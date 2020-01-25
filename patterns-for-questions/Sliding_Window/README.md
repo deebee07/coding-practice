@@ -1,3 +1,7 @@
+1. **windowStart and windowEnd are indexes.**
+2. **Array generally is reduced to n-k+1 elements for a k length window size.**
+3. **windowSum/windowAverage/windowMultip can be taken with it.**
+
 
 **IDENTIFY WHEN:** <br/>
 **FINDING/CALCULATE SOMETHING** among all the **contiguous** subarrays/sublists of a **given size**.
