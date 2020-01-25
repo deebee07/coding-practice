@@ -1,5 +1,6 @@
 /*
 https://leetcode.com/problems/longest-palindromic-substring/submissions/
+https://en.wikipedia.org/wiki/Longest_common_substring_problem
 
 For every position i we're interested if there's a palindrome ending at this position (inclusive) longer than the longest palindrome found so far.
 
@@ -20,7 +21,7 @@ Termination. Since the substring s[0..N) (N = length of s) is the string s itsel
 My code based on the above is given below. It differs from the solution presented in the question only in that it tries to optimize palindrome checks by using the fact (3) for the case when the previous palindrome is at i - 1. This improves performance by 2 ms (total 7 ms, beating 99%).
 */
 
-Longest Common Substring vs Longest Common Subsequence
+//Longest Common Substring vs Longest Common Subsequence
 class Solution {
     public String longestPalindrome(String s) {
 
@@ -88,4 +89,32 @@ public class Solution {
         }
         return s.substring(palindromeStartsAt, palindromeStartsAt+maxLen);
     }
+}
+
+
+public String longestPalindrome(String s) {
+    StringBuilder rev = new StringBuilder(s);
+    String s_rev = rev.reverse().toString();
+    if(s_rev.equals(s))
+    	return s;
+    return longestCommonSubString(s, s_rev);
+}
+
+public String longestCommonSubString(String a, String b){
+	char[] sb1 = a.toCharArray(); 
+	char[] sb2 = b.toCharArray();
+	int[][] table = new int[a.length()+1][b.length()+1];
+	int flag = 0, max_len = 0;
+	for (int i = 1; i <= a.length(); i++) {
+		for (int j = 1; j <= b.length(); j++) {
+			if(sb1[i-1] == sb2[j-1]){
+				table[i][j] = table[i-1][j-1] + 1;
+				if(table[i][j] >= max_len){
+					max_len = table[i][j];
+					flag = i;
+				}
+			}
+		}
+	}
+	return a.substring(flag - max_len, flag);
 }
