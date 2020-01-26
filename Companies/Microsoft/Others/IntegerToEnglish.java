@@ -65,6 +65,13 @@ class Solution {
     }
   
     public String three(int num) {
+      /*
+      3 digit will have hundreder is num/100 rest would be num - hundreder*100
+        3 cases:
+        one(hundreder) hundred
+        one(hundreder) hundred two(rest)
+        (0 hundreder) so only two(rest)
+      */
       int hundred = num / 100;
       int rest = num - hundred * 100;
       String res = "";
@@ -100,7 +107,7 @@ class Solution {
         result += three(thousand) + " Thousand";
       }
       if (rest != 0) {
-        if (! result.isEmpty())
+        if (!result.isEmpty())
           result += " ";
         result += three(rest);
       }
