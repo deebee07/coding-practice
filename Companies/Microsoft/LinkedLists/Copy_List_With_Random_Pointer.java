@@ -66,7 +66,7 @@ public class Solution {
             Map<Node, Node> map = new HashMap<>();
             Node node = head; //here is the headNode
             while(node != null) {
-                map.put(node, new Node(node.val, node.next, node.random));
+                map.put(node, new Node(node.val));
                 node = node.next;
             }
 

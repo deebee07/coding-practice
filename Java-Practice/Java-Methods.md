@@ -69,6 +69,7 @@ Collections.swap(List, index1, index2)
 ```
 
 ```
+String.valueOf()
 ```
 
 **Reference help:** 
@@ -76,3 +77,14 @@ https://www.tutorialspoint.com/java/util/arraylist_add_index.htm
 
 https://www.geeksforgeeks.org/arraylist-in-java/
 
+
+
+Character.isDigit(str.charAt(i))
+Character.getNumericValue(digits.charAt(i));
+Character.isLetterOrDigit
+Character.toLowerCase()
+str.charAt()
+ System.arraycopy(nums2, 0, nums1, 0, p2 + 1);
+
+char[] ca = s.toCharArray();
+String back = String.valueOf(ca);
