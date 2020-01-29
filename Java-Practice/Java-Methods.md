@@ -88,3 +88,6 @@ str.charAt()
 
 char[] ca = s.toCharArray();
 String back = String.valueOf(ca);
+
+
+String.indexOf
