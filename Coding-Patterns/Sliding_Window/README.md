@@ -3,6 +3,17 @@
 3. **windowSum/windowAverage/windowMultip can be taken with it.**
 
 
+BASIS FOR WINDOW SHRINK THAT IS MOVE WINDOWSTART/SHRINK
+    if (windowEnd >= k - 1)  //windowOfSizeK
+    while (windowSum >= S)  //windowSumLimit
+    while (charFrequencyMap.size() > k)  //kDistinctCharacters so rely on Map for distinct
+    while (fruitFrequencyMap.size() > 2) //2DistinctCharacters so rely on Map for distinct
+    if (charIndexMap.containsKey(rightChar)) // UNIQUE DISTINCT SUBSTRING
+    if (windowEnd - windowStart + 1 - maxRepeatLetterCount > k) //Longest SUBSTRING WITH SAME LETTERS AFTER REPLACEMENT
+    if (windowEnd - windowStart + 1 - maxOnesCount > k) //Longest Subarray with Ones after Replacement
+    if (windowEnd >= pattern.length() - 1) //pattern matching for anagram/permutation of string
+
+
 **IDENTIFY WHEN:** <br/>
 **FINDING/CALCULATE SOMETHING** among all the **contiguous** subarrays/sublists of a **given size**.
 

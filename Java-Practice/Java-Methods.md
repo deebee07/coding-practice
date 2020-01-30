@@ -91,3 +91,16 @@ String back = String.valueOf(ca);
 
 
 String.indexOf
+
+
+Integer.compare(a.start, b.start)
+Collections.sort(intervals, (a, b) -> Integer.compare(a.start, b.start));
+
+
+List<Interval> intervals
+intervals.size()
+
+Collections.sort(intervals, (a, b) -> Integer.compare(a.start, b.start));
+Iterator<Interval> intervalItr = intervals.iterator();
+
+intervals.get(i)
