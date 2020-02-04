@@ -1,19 +1,29 @@
-Apple preparation:
-https://leetcode.com/company/apple/
-https://leetcode.com/explore/interview/card/apple/
-https://leetcode.com/problemset/all/?companySlugs=apple
+**Apple preparation:** <br>
+https://leetcode.com/company/apple/ <br>
+https://leetcode.com/explore/interview/card/apple/ <br>
+https://leetcode.com/problemset/all/?companySlugs=apple <br>
 
-Test:
-https://leetcode.com/interview/
+**Test:** <br>
+https://leetcode.com/interview/ <br>
 
+https://leetcode.com/problemset/concurrency/ <br>
 
+**LeetCode Important Posts:** <br>
 
-https://leetcode.com/problemset/concurrency/
+**Dynamic Programming Help:** <br>
+https://www.educative.io/courses/grokking-dynamic-programming-patterns-for-coding-interviews <br>
+https://leetcode.com/discuss/general-discussion/491522/Dynamic-Programming-Questions-Thread <br>
 
+**Courses:** <br>
 
-LeetCode Important Posts:
+**Coding Interview:** <br>
+**Patterns:** <br>
+https://www.educative.io/courses/grokking-the-coding-interview <br>
 
+**Tricks:** <br>
+https://www.educative.io/courses/coderust-hacking-the-coding-interview <br>
 
+<<<<<<< HEAD
 Dynamic Programming Help:
 https://www.educative.io/courses/grokking-dynamic-programming-patterns-for-coding-interviews
 https://leetcode.com/discuss/general-discussion/491522/Dynamic-Programming-Questions-Thread
@@ -48,3 +58,8 @@ https://leetcode.com/discuss/interview-question/216823/Onsite-interview
 https://martinfowler.com/bliki/BlueGreenDeployment.html
 
 BLUE GREEN DEPLOYMENT
+
+**System Design Interview:** <br>
+https://www.educative.io/courses/grokking-the-system-design-interview <br>
+**OOP Design Interview:** <br>
+https://www.educative.io/courses/grokking-the-object-oriented-design-interview <br>
