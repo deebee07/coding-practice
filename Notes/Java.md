@@ -81,5 +81,7 @@ Output:<br>
 ```Arrays.sort(intervals, (a, b) -> Integer.compare(a.start, b.start))``` <br>
 ```Arrays.asList(newInterval)``` <br>
 ```Arrays.toString(result)``` <br>
+```Arrays.asList(nums[left],nums[right],nums[i])``` <br>
+
 
 
