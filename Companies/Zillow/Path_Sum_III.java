@@ -18,8 +18,6 @@ Time: O(n^2) in worst case (no branching); O(nlogn) in best case (balanced tree)
 */
 
 
-
-
 public class Solution {
     public int pathSum(TreeNode root, int sum) {
         if (root == null) return 0;

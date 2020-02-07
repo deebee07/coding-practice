@@ -104,3 +104,17 @@ Collections.sort(intervals, (a, b) -> Integer.compare(a.start, b.start));
 Iterator<Interval> intervalItr = intervals.iterator();
 
 intervals.get(i)
+
+
+Pair class in Java
+
+Methods provided by the javafx.util.Pair class
+
+https://www.geeksforgeeks.org/pair-class-in-java/
+Pair (K key, V value) : Creates a new pair
+
+Pair p1 = new Pair(3,4); 
+Pair p2 = new Pair(3,4); 
+Pair p3 = new Pair(4,4); 
+System.out.println(p1.equals(p2) + “ ” + p2.equals(p3)); 
+Output: true false
