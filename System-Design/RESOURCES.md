@@ -23,14 +23,12 @@ http://notes.stephenholiday.com/Kafka.pdf
 ### Consistent Hashing: Distributed Caching Protocols for Relieving Hot Spots on the World Wide Web
 
 
+### Hadoop
+https://storageconference.us/2010/Papers/MSST/Shvachko.pdf
 
-
-
-
-
-
-
-
+### MapReduce
+https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf
+### ZooKeeper
 
 
 
@@ -39,3 +37,5 @@ https://github.com/MaximAbramchuck/awesome-interview-questions
 https://github.com/MaximAbramchuck/awesome-interview-questions#java
 https://github.com/MaximAbramchuck/awesome-interview-questions#design-patterns
 
+
+http://broncoscholar.library.cpp.edu/bitstream/handle/10211.3/206614/SoniIrwin_Project2018.pdf?sequence=4
