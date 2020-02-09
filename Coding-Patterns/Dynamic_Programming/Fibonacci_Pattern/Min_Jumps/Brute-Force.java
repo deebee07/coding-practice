@@ -19,7 +19,7 @@ class ArrayJump {
   
     private int countMinJumpsRecursive(int[] jumps, int currentIndex) {
       // if we have reached the last index, we don't need any more jumps
-      if( currentIndex == jumps.length - 1)
+      if(currentIndex == jumps.length - 1)
         return 0;
   
       if (jumps[currentIndex] == 0)
