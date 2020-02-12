@@ -1,0 +1,1 @@
+Wrote applications using Cassandra, Postgres or MySQL, Redis, Memcached, Kafka, Solr or AWS-equivalent managed services (e.g. RDS, Dynamo DB, etc…).

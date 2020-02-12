@@ -23,14 +23,11 @@ https://www.educative.io/courses/grokking-the-coding-interview <br>
 **Tricks:** <br>
 https://www.educative.io/courses/coderust-hacking-the-coding-interview <br>
 
-<<<<<<< HEAD
-Dynamic Programming Help:
+**Dynamic Programming Help:**
 https://www.educative.io/courses/grokking-dynamic-programming-patterns-for-coding-interviews
 https://leetcode.com/discuss/general-discussion/491522/Dynamic-Programming-Questions-Thread
 
-
-
-Courses:
+**Courses:**
 
 Coding Interview:
 Patterns:
