@@ -17,6 +17,9 @@ https://www.linkedin.com/learning/java-ee-concurrency-and-multithreading/welcome
 
 
 ## GARBAGE COLLECTION
+* VisualVM Launcher Plugin for IntelliJ IDEA.
+* ```jvisualvm``` in the bin of jdk.
+
 * String pools
 ``` 
 String one = "hello";
