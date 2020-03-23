@@ -18,7 +18,7 @@ https://www.linkedin.com/learning/java-ee-concurrency-and-multithreading/welcome
 
 ## GARBAGE COLLECTION
 * VisualVM Launcher Plugin for IntelliJ IDEA.
-* ```jvisualvm``` in the bin of jdk.
+* ```jvisualvm``` in the bin of jdk. Add Plugin Visual GC
 
 * String pools
 ``` 
@@ -59,5 +59,30 @@ String four = "76";
     ```
     public void finalize() // A method of Object shouldnt be used as gc can happen at anytime.
     ```
-  * Java can still have Soft leaks: An object referenced on the stack even though it will never be used again.                          
+  * Java can still have Soft leaks: An object referenced on the stack even though it will never be used again.
+  
+
+* Generational Garbage Collection (Way of Organizing Heap)
+	* Young generation (Eden then (Survivor) S0 then S1, has to survive 8 Versions) and Old generation <br/>
+	* Heap Dump (Memory Analyzer)<br/>
+	* PermGen and MetaSpace (Java6 had PermGen[It is never Garbage collected])<br/>
+	* Start and Stop Tomcat for each deployment or else your PermGen space would be used up<br/>
+	* Internalized Strings nolonger part of PermGen space. Java 7+ doesnt have PermSpace but MetaSpace<br/>
+
+* Tuning the Virtual Machine (Java VM)
+	* -Xmx (Maximum Heap memory size)
+	* -Xms (Starting Heap memory size)<br/>
+	* https://docs.oracle.com/cd/E13222_01/wls/docs81/perform/JVMTuning.html <br/>
+	* -XX:MaxPermSize (Size of PermGen not part in Java 8) </br>
+	* --verbose:gc (Young gen 1/3rd of total heap by default -Xmn [Size of Young gen]) <br/>
+	* HEAP DUMP: --XX:HeapDumpOnOutOfMemory (Creates a Heap Dump File) <br/>
+	* Oracle VM has 3 types of Garbage Collector:
+		* Serial Collector [Single thread] ```-XX:+UseSerialGC``` <br/>
+		* Parallel Collector [All thread] ```-XX:+UseParallelGC``` <br/>
+		* Mostly Concurrent Collector [Closest to real-time no specific pause time needed] <br/>
+			* --XX:+UseConcMarkSweepGC or --XX:+UseG1GC <br/>
+		Get current GC: --XX:PrintCommandLineFlags
+													
+	
+	
 
