@@ -28,3 +28,19 @@ public class Main {
         return result;
     }
 }
+
+
+//Largest M-aligned Subset
+    public static int largestMAlignedSubset(int[] nums, int M) {
+        if (M <= 1) return nums.length;
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int n : nums) {
+            int rem = n < 0 ? n % M + M : n % M;
+            map.put(rem, map.getOrDefault(rem, 0) + 1);
+        }
+        int res  = 0;
+        for (int rem : map.keySet()) {
+            res = Math.max(res, map.get(rem));
+        }
+        return res;
+    }
