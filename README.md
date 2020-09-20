@@ -35,3 +35,25 @@ Z-90
 * To CONVERT FROM LOWERCASE to UPPERCASE: ALWAYS SUBTRACT 32 to ASCII Value
 
 ![ASCII Code Cheat Sheet](https://catonmat.net/ftp/ascii-cheat-sheet.png)
+
+
+Reference: http://www.gayle.com/blog/2016/3/coding-interviews-and-the-importance-of-perfectionconsider 
+
+```Q:``` Below snippet is used to locate all instances of a string s within a string b
+
+```
+int countSubstrings(String s, String b) {
+ int count = 0;
+ for (int i = 0; i < b.length() — s.length(); i++) {
+    String bSubstring = b.substring(i, i + s.length());
+    if (bSubstring.equals(s)) {
+     count++;
+    }
+ }
+ return count;
+}
+
+```
+Faulty Code: <br/>
+1. Below code should have String s and String b check for null.
+2. xyz and xyz will fail here as code wont go in loop, so loop must run from ```i = 0``` to ```b.length()-s.length() + 1```
